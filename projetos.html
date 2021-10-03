@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafael H. Pereira - Projetos</title>
+  <link rel="icon" href="imgs/icon-site.png">
+  <link rel="stylesheet" href="projetostyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8abed3b51a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <header class="header">
+    <nav class="menunav">
+      <ul class="menu">
+        <li class="links"> <a href="index.html">PERFIL</a> </li>
+        <li class="links"> <a href="projetos.html">PROJETOS</a> </li>
+        <li class="links"> <a href="experiencia.html">EXPERIÊNCIA</a> </li>
+        <li class="links"> <a href="repositorios.html">REPOSITÓRIOS GITHUB</a> </li>
+        <li class="links"> <a href="conteudos.html">CONTEÚDO</a> </li>
+        <div id="input_container">
+          <li>
+            <input type="search" class="pesquisar" placeholder="Pesquisar">
+            <img src="imgs/search.png" alt="iconepesquisa" id="input_img">
+          </li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <nav class="navbar navbar-light" style="background-color: rgba(211, 211, 211, 0.616)" id="navmobile">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portifólio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="menu">
+            <li class="links"> <a href="index.html">PERFIL</a> </li>
+            <li class="links"> <a href="projetos.html">PROJETOS</a> </li>
+            <li class="links"> <a href="experiencia.html">EXPERIÊNCIA</a> </li>
+            <li class="links"> <a href="repositorios.html">REPOSITÓRIOS GITHUB</a> </li>
+            <li class="links"> <a href="conteudos.html">CONTEÚDO</a> </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="projetos">Projetos</h1>
+
+  <ul class="imagens">
+    <li>
+      <a target="_blank" href="https://cxxlt.github.io/login/"> <img src="imgs/sistemalogin.png" alt="1"></a>
+      <p>Sistema de login e registro - 2021.</p>
+    </li>
+    <li>
+      <a target="_blank" href="https://cxxlt.github.io/links/"><img src="imgs/links.png" alt="2"></a>
+      <p>Links e contato - 2021.</p>
+    </li>
+    <li>
+      <img src="imgs/embreve.png" alt="3">
+      <p>Projeto C - 2021.</p>
+    </li>
+    <li>
+      <img src="imgs/embreve.png" alt="4">
+      <p>Projeto D - 2021.</p>
+    </li>
+  </ul>
+
+  <footer class="footer">
+    <h3>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas - Rafael Henrique Pereira
+    </h3>
+  </footer>
+</body>
+
+</html>
