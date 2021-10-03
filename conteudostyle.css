@@ -127,7 +127,7 @@ nav ul li {
 .pesquisar::-webkit-search-cancel-button{
     -webkit-appearance: none;
     -webkit-user-modify: read-write;
-    content:url(/imgs/x.svg);
+    content:url(imgs/x.svg);
     width: 25px;
 }
 
